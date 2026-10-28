@@ -1,18 +1,18 @@
 [project]
-name = "tri-mails"
+name = "email-triage"
 version = "0.1.0"
-description = "Add your description here"
+description = "Customer email triage with a fine-tuned BERT model: auto-replies, human review loop, spike alerts, and full MLOps pipeline (Docker, CI/CD, retraining)."
 readme = "README.md"
 authors = [
     { name = "Mahery23", email = "rasoanaivo.mahery2306@gmail.com" }
 ]
-requires-python = ">=3.15"
+requires-python = ">=3.12"
 dependencies = [
     "datasets>=5.1.0",
 ]
 
 [project.scripts]
-tri-mails = "tri_mails:main"
+email-triage = "email_triage:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
