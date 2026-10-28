@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from tri-mails!")
+    print("Hello from email-triage!")
