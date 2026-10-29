@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Check Python dependencies every week
+  - package-ecosystem: "uv"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Check GitHub Actions versions every week
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
